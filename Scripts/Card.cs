@@ -1,16 +1,21 @@
-using Godot;
 using System;
+using Godot;
+using SkirmishGame.Resources;
 
-namespace Skirmish.Cards;
-public partial class Card : Node
+namespace SkirmishGame.Cards
 {
-    
-    public Texture2D Artwork { get; set; }
-
-
-    public override void _Ready()
+    public partial class Card : Node
     {
-        GD.Print("Card ready");
-    }
+        [Export]
+        public Resource CardData { get; set; }
 
+        public Sprite2D Artwork { get; set; }
+
+
+        public override void _Ready()
+        {
+            
+        }
+
+    }
 }
