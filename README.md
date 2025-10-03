@@ -1,2 +1,5 @@
 # SkirmishGame
-Digital version of a TCG being designed by SocksOfGrandeur
+Digital version of a TCG being designed by SocksOfGrandeur    
+	
+	
+Developed by Nikkxi

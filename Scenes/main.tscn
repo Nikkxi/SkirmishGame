@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b61hkkmtcgir7"]
+
+[ext_resource type="Script" uid="uid://da3jsto0rqbv8" path="res://Scripts/Card.cs" id="1_jjgbg"]
+
+[node name="gamemanager" type="Node"]
+
+[node name="Card1" type="Node2D" parent="."]
+script = ExtResource("1_jjgbg")
